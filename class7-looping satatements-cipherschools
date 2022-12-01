@@ -1,0 +1,35 @@
+# while loop
+a=1
+while a<10:
+    print(a)
+    a+=1
+
+name="Jaxon"
+for c in name:
+    print(c)
+    print(type(c))
+
+for i in range(5):
+    print(i)
+
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+
+for i in range(5):
+    print(i)
+    i=100
+    print(i)
+
+for i in range(5):
+    print(i)
+else:
+    print("something")
+
+for i in range(5):
+    print(i)
+    if i == 3:
+        break
+else:
+    print("something")
