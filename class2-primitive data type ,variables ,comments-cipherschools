@@ -1,0 +1,8 @@
+print("hello world")
+print("hello 'world' world")
+
+a=255
+print(hex(id(a)))
+
+a="a"
+print(type(a))
