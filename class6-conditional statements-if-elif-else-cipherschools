@@ -1,0 +1,20 @@
+a= False
+if a:
+    print("This statement is true")
+else:
+    print("This satement is false")
+    
+a= 5
+if a==3:
+    print("This value is 3 ")
+elif a==5:
+    print("This value is equal to 5")
+else:
+    print("This value is 5 ")
+    
+#Nested if-else
+#x: int(-inf,inf)
+#(G_>x)
+#a=x<0
+#b=x==0
+#c=x>0
