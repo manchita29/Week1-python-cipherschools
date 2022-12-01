@@ -1,0 +1,44 @@
+#arithmetic operators
+a=5+5
+print(a)
+
+b=5-9
+print(b)
+
+c=5*8
+print(c)
+
+d=10/3  #division, output is float
+print(d)
+
+j=10//3 #floor division
+
+k=2**4
+print(k)
+
+print("abc"*6)
+
+#comparison operators
+print(1==2)
+print(2!=3)
+print(2<3)
+print(2>3)
+print("ab"< "z")  #lexicographic comparison
+
+#logical operators
+(print (True or False))
+(print (True and False))
+(print (True and 1))
+(print (1 and 5))
+
+#short curcuiting
+# a or b = a (if a is truthy)
+# a or b = b (if a is falsey)
+# a and b = b (if a is truthy)
+# a and b = a (if a is falsey)
+#true or b = true
+#false or b = b
+#true and b = b
+#false and b = false
+print("" and 6)
+print(1.6 or "")
