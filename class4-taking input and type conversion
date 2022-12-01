@@ -1,0 +1,6 @@
+a = input()
+print(a)
+
+a= 65
+a= chr(a)
+print(type(a))
