@@ -1,0 +1,8 @@
+print("hello",end=";")
+print("world")
+
+print(1,2,3, "Knox" , 3.4, 1+5j, sep="-")
+
+print('a', end=")")
+print("b")
+print("c")
